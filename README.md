@@ -57,6 +57,9 @@ functions.
 
 * Note that in this dataset missing values are coded as `?`.
 
+<p style="color:red;font-weight:bold">Please note to extract only these days I downloaded the zip, extracted and ran following:</p>
+<p style="color:green;font-weight:bold">awk -F';' ' NR==1 || $1 ~ /^[12]\/2\/2007/ ' household_power_consumption.txt > household_power_consumption-subset.txt</p>
+
 
 ## Making Plots
 
